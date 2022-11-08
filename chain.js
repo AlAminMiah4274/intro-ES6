@@ -14,6 +14,22 @@ const data = {
 const firstJob = data.data[0].job;
 // console.log(firstJob);
 
+// const user = {
+//     id: 5001,
+//     name: 'thomas alba edison',
+//     address: {
+//         street: {
+//             first: '35/A kachukhet lane',
+//             second: 'third floor',
+//             third: 'right side'
+//         },
+//         postOffice: 'cantonment',
+//         city: 'dhaka'
+//     }
+// };
+// const userFloor = user.address.street.second;
+// console.log(userFloor);
+
 const user = {
     id: 5001,
     name: 'thomas alba edison',
@@ -27,5 +43,6 @@ const user = {
         city: 'dhaka'
     }
 };
-const userFloor = user.address.street.second;
-console.log(userFloor);
+
+const userLivingSide = user.address.stret?.third;
+console.log(userLivingSide);
