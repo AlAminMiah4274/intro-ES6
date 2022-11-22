@@ -107,3 +107,12 @@ const latitude = user.address.geo.lat;
 
 const companyName = user.company.name;
 // console.log(companyName);
+
+const product = {
+    name: 'Laptop',
+    model: 'Yoga 3',
+    price: 49000,
+    dusk: '512SSD'
+};
+const { price } = product;
+console.log(price);

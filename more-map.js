@@ -10,7 +10,7 @@ const firstLetters = friends.map(f => f[0]);
 // console.log(firstLetters);
 
 const nameLengths = friends.map(f => f.length);
-// console.log(nameLengths);
+console.log(nameLengths);
 
 const products = [
     { id: 1, name: 'laptop', price: 45000 },
